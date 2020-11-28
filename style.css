@@ -1,7 +1,54 @@
-body {
-    background-color: aquamarine;
+/*instal font*/
+@font-face {
+    font-family: lobster;
+    src: url(font/Lobster-Regular.ttf);
 }
 
-nav {
-    background-color: cadetblue;
+
+body {
+    margin: 0px;
 }
+
+.container {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    background-color: darkcyan;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: lobster;
+    color: white;
+
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+.header .navigation li a {
+    color:white;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+.header .navigation li a:hover {
+    color: turquoise;
+    text-decoration: underline;
+}
+
